@@ -13,7 +13,8 @@ const siteUrl = 'https://Summer-summer-summer.github.io';
 // https://astro.build/config
 export default defineConfig({
   site: siteUrl,
-  base: '/Summer-summer-summer.github.io',
+  // 用户级 GitHub Pages 部署到根路径，不需要 base
+  // base: '/',
   envPrefix: 'PUBLIC_',
   vite: {
     plugins: [tailwindcss()],
