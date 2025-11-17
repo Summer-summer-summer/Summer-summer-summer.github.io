@@ -14,7 +14,7 @@ const siteUrl = 'https://Summer-summer-summer.github.io';
 export default defineConfig({
   site: siteUrl,
   // 用户级 GitHub Pages 部署到根路径，不需要 base
-  // base: '/',
+  base: '/',
   envPrefix: 'PUBLIC_',
   vite: {
     plugins: [tailwindcss()],
