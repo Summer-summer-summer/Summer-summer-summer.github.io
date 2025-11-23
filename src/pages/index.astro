@@ -6,6 +6,8 @@ import Layout from "@/layouts/Layout.astro";
 import SocialCard from "@/components/cards/SocialCard.astro";
 import AnimatedText from "@/components/ui/AnimatedText.astro";
 import Explore from "@/components/sections/Explore.astro";
+// import FeaturedWork from "@/components/sections/FeaturedWork.astro";
+import BlogSection from "@/components/sections/BlogSection.astro";
 ---
 
 <Layout
@@ -21,7 +23,7 @@ keywords="Summer, Portfolio, Product Design, Human-Computer Interaction, Hardwar
         <!-- Title - AnimatedText animation -->
         <h1 class="mb-4">
           <AnimatedText
-            content="Hi, I'm Summer, summer, summer"
+            content="Hi, I'm Yingjie"
             delay={0.1}
             duration={0.5}
             stagger={0.08}
@@ -86,10 +88,9 @@ keywords="Summer, Portfolio, Product Design, Human-Computer Interaction, Hardwar
       >
         <HeroCard
           imageUrl="/assets/home/beauty-eyes-intro3.png"
-          title="Latest work"
+          title="Latest project"
           link="https://summer-summer-summer.github.io/blog/beauty-eyes/"
         />
-        <!-- TODO: update link -->
       </div>
     </div>
   </div>
@@ -112,8 +113,8 @@ keywords="Summer, Portfolio, Product Design, Human-Computer Interaction, Hardwar
     data-aos-once="true"
   >
     <FeaturedWork title="Featured Work ↓" description="I create innovative and purposeful designs that not only capture attention but also drive meaningful results." limit={5} />
-  </section>
-
+  </section> -->
+  
   <section
     class="mt-26 mb-12"
     data-aos="fade-up-sm"
@@ -122,10 +123,10 @@ keywords="Summer, Portfolio, Product Design, Human-Computer Interaction, Hardwar
     data-aos-once="true"
   >
     <BlogSection
-      title="Latest Articles  ↓"
-      description="These are my notes and articles on design, development and life thinking."
+      title="Latest Projects  ↓"
+      description="These are some of my lastest projects."
       showViewAllButton={true}
-    /> -->
-  <!-- </section> -->
+    /> 
+  </section>
 
 </Layout>
